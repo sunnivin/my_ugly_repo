@@ -1,2 +1,4 @@
 # module-based-type-along
-Template repository for starting the module based coding exercise
+This repository is generated from the template repository for starting the module based coding exercise. 
+
+It contains some ugly Python code that should be cleaned a little.
