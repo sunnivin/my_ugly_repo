@@ -1,14 +1,14 @@
 import pandas as pd
 from matplotlib import pyplot as plt
 
-num_measurements = 25
+NUM_MEASUREMENTS = 25
 
 # read data from file
-data = pd.read_csv('data/temperatures.csv', nrows=num_measurements)
+data = pd.read_csv('data/temperatures.csv', nrows=NUM_MEASUREMENTS)
 temperatures = data['Air temperature (degC)']
 
 # compute statistics
-mean = sum(temperatures)/num_measurements
+mean = sum(temperatures)/NUM_MEASUREMENTS
 
 # plot results
 plt.plot(temperatures, 'r-')
